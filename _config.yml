@@ -2,3 +2,5 @@ title : Clack.pw
 production_url : http://clack.pw
 permalink : none
 markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data","disable_indented_code_blocks"]
