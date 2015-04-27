@@ -9,18 +9,38 @@
 	#Wrapper {
 		margin: 0 auto;
 		margin-top: 5px;
-		max-width: 40%;
+		max-width: 35%;
 		min-width: 300px;
 		padding:5px;
 		
 	}
 
+	@media (max-width:980px) {#Wrapper {max-width: 55%;}}
+	@media (max-width:768px) {#Wrapper {max-width: 90%; }}
+	@media (max-width:360px) {#Wrapper {max-width: 90%; margin-left:20px; }}
+
+
 	.highlight {
-		border: solid 2px #00FFB4;
-		padding: 10px 5px;
 		margin: 10px 0;
+		width:105%;
 	}
 
+	.highlight pre {
+		left: -20px;
+		position: relative;
+		border: solid 2px #00FFB4;
+	}
+
+	.lineno {
+		-moz-user-select: none; 
+        -khtml-user-select: none; 
+        -webkit-user-select: none; 
+        -o-user-select: none; 
+
+        color: white;
+        background-color: #00FFB4;
+        padding-right:2px;
+	}
 
 
 	body {
@@ -39,7 +59,7 @@
 	}
 
 	a:link,a:visited{
-		color: #444;
+		color: #333;
 		text-decoration: none;
 		transition: all 0.2s ease-out;
 	}
@@ -92,6 +112,8 @@
 		list-style-position: outside;
 		padding: 0;
 		margin: 10px 0 10px 0px;
+		color: #00FFB4;
+
 
 	}
 
@@ -117,7 +139,8 @@
 <p>Programming Lab of Ben Barwise - tests and experiments. Grapes on the vine, chilli crab, tumbling blocks, lapsang souchong and whatnot.</p>
 
 <ul>
-<li><a href="/thisisatest.html">This is a test</a></li>
+<li><p><a href="/test.html">CSS pixel drawing</a></p></li>
+<li><p><a href="/thisisatest.html">This is a test</a></p></li>
 </ul>
 
 </div>
