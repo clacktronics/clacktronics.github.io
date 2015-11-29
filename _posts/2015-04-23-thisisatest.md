@@ -15,7 +15,5 @@ pants.meaning('UK')
 getDressed = pants.pullUp('now')
 
 if getDressed.status == True:
-	Print "Well Done benny boy!"
-
+	print "Well Done benny boy!"
 {% endhighlight %}
-
