@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Clack.pw
+title: EuroClack
 ---
 
 Programming Lab of Ben Barwise - tests and experiments. Grapes on the vine, chilli crab, tumbling blocks, lapsang souchong and whatnot.
@@ -8,5 +8,5 @@ Programming Lab of Ben Barwise - tests and experiments. Grapes on the vine, chil
   {% for post in site.posts %}
 
   * [{{ post.title }}]({{ post.url }})
-  
+
   {% endfor %}
