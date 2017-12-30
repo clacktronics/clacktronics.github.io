@@ -3,10 +3,15 @@ layout: default
 title: EuroClack
 ---
 
-Programming Lab of Ben Barwise - tests and experiments. Grapes on the vine, chilli crab, tumbling blocks, lapsang souchong and whatnot.
+EuroClack is a series of open source hardware euro rack synthesizer modules. The idea is that they are cheap to produce by oneself and follow a simple layout system for fast prototyping.
 
   {% for post in site.posts %}
 
   * [{{ post.title }}]({{ post.url }})
 
+  {% endfor %}
+
+
+  {% for repository in clacktronics.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
   {% endfor %}
