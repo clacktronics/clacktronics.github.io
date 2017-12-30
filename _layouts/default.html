@@ -12,7 +12,7 @@
 		max-width: 35%;
 		min-width: 300px;
 		padding:5px;
-		
+
 	}
 
 	@media (max-width:980px) {#Wrapper {max-width: 55%;}}
@@ -32,10 +32,10 @@
 	}
 
 	.lineno {
-		-moz-user-select: none; 
-        -khtml-user-select: none; 
-        -webkit-user-select: none; 
-        -o-user-select: none; 
+		-moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
 
         color: white;
         background-color: #00FFB4;
@@ -48,7 +48,7 @@
 		font-size: 1em;
 
 	}
-	
+
 	img {
 		width:100%;
 	}
@@ -118,12 +118,12 @@
 	}
 
 	ul li{
-		
 
-		
-		
+
+
+
 	}
-		
+
 
 
 	</style>
@@ -135,7 +135,7 @@
 
 <a class="site_title" href="/" alt="Click for index">{{ site.title }}</a>
 
-{% if page.title != 'Clack.pw' %}
+{% if page.title != site.title %}
 <h2>{{page.title}}</h2>
 {% endif %}
 {{ content }}
