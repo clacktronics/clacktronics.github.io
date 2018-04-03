@@ -11,6 +11,5 @@ EuroClack is a series of open source hardware euro rack synthesizer modules. The
 {% if repprefix == "EuroClack" %}
 * [{{ repository.name }}]({{site.url}}/{{ repository.name }}/)
 {% else %}
-{{ repository.name }}
 {% endif %}
 {% endfor %}
